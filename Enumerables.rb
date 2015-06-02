@@ -69,23 +69,3 @@ def sorted_triples(array)
 end
 
 # Driver code... no modifiques nada de este código 
-puts "odd indexed integer"
-print_odd_indexed_integers([2, 4, 6, 8, 10, 12]) 
-
-puts "odd odd integers"
-puts odd_integers([3, 4, 7, 9, 10, 16]) == [3, 7, 9]
-puts odd_integers([3, 4, 7, 9, 10, 16])
-
-puts "número menor mas cercano al límite"
-puts first_under([13, 21, 7, 0, 11, 106], 10) == 7
-
-puts "agrega bang!"
-puts add_bang(["hi", "mom"]) == ["hi!", "mom!"]
-
-puts "suma parámetros del array"
-puts sum([1, 1, 2, 3, 5]) == 12
-puts sum([1, 1, 2, 3, 5]) 
-
-puts "dividir en arrays de 3"
-words = %w(De esta simple manera se puede reorganizar una oración)
-p sorted_triples(words) == [["De", "esta", "simple"], ["manera", "puede", "se"], ["oración", "reorganizar", "una"]]  
